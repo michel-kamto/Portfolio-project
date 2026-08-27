@@ -1,0 +1,324 @@
+ body{
+    background-color: rgb(17, 13, 74);
+ }
+ header{
+    border-bottom: 1px solid rgb(22, 190, 190);
+ }
+ .lemongreen{
+    color: rgb(22, 190, 190);
+ }
+
+ .kamt{
+    display: inline-block;
+ }
+ .nav{
+    display: inline-block;
+    margin-left: 650px;
+
+ }
+ .nav a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+ }
+.nav a:hover{
+    color: rgb(22, 190, 190);
+    border-bottom: 2px solid rgb(22, 190, 190);
+}
+.box1{
+    border: 1px solid white;
+    margin-top: 18px;
+    margin-left: 70px;
+    margin-right: 350px;
+    border-radius: 8px;
+
+}
+.class{
+    margin-left: 30px;
+}
+.white{
+    color: white;
+}
+.green{
+   background: green;
+}
+.red{
+   background: red;
+}
+.orange{
+   background: orange;
+}
+.colors{
+   background-color: white;
+}
+
+.button1{
+   margin-top: 8px;
+   display: inline-block;
+}
+.button1 a{
+   text-decoration: none;
+   color: black;
+   font-size: 14px;
+}
+.button1 button{
+    padding: 4px;
+    border-radius: 4px;
+    border: none;
+    margin-left: ;
+    background-color: rgb(22, 190, 190);
+    margin-left: 95px;
+ 
+}
+.button1 button:hover{
+   background-color: rgb(16, 126, 236);
+}
+.button2{
+   margin-top: 8px;
+   display: inline-block;
+}
+.button2 a{
+      text-decoration: none;
+   color: white;
+   font-size: 14px;
+}
+.button2 button{
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid rgb(22, 190, 190);
+    background-color: rgb(17, 13, 74);
+    margin: 2px;
+     
+}
+.button2 button:hover{
+ 
+   border: 1px solid rgb(16, 126, 236);
+}
+.lemon{
+   color: rgb(22, 190, 190);
+}
+.lemon:hover{
+   color: rgb(16, 126, 236);
+}
+
+
+
+.section2{
+   background: white;
+   display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+    
+  
+}
+.section2 p{
+   margin-left:  40px;
+
+}
+.section2 h2{
+      margin-left:  40px;
+}
+
+img{
+   width: 150%;
+   border: 1px solid black;
+   height: 200px;
+   border-radius: 4%;
+
+    
+}
+.flex{
+   margin-left: 4%;
+}
+
+.writing{
+
+   text-align: left;
+   padding: 4px;
+   width: 55%;
+   margin-right: 300px;
+}
+
+.section3{
+
+}
+.section3head{
+   margin-left: 45px;
+}
+.section3head h2{
+   color: white;
+}
+.section3head{
+   color: white;
+}
+.videos{
+   display: flex;
+   gap: 30px;
+   margin-left: 45px;
+  width: 300px;
+   
+}
+.video{
+      border: 1px solid white;
+   border-radius: 4%;
+     width: 500px;
+}
+.video p{
+   color: white;
+}
+video{
+   border-radius: 6%;
+   width: 250px;
+   height: 140px;
+}
+.details{
+   margin-left: 15px;
+}
+
+button{
+   background: rgb(22, 190, 190);
+   border: none;
+   padding: 8px;
+   border-radius: 8px;
+   margin-top:9px;
+   margin-left: 4%;
+}
+button:hover{
+   background: rgb(16, 126, 236);
+}
+button a{
+   text-decoration: none;
+   color: black;
+   font-size: 14px;
+}
+
+
+.section4{
+   background-color: rgba(239, 237, 237, 0.728);
+}
+     
+ .section4 .lemongreen{
+margin-left: 2%;
+margin-top: 6%;
+}
+ .section4 h2 b{
+   margin-left: 4%;
+
+ }
+ .section4 .lem{
+    margin-left: 4%;
+    color: rgb(11, 90, 218);
+    margin-top: 12%;
+ }
+
+.snapshot {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 30px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.skill {
+    background: white;
+    border-radius: 5px;
+    padding: 15px 20px;
+    display: block;
+    align-items: center;
+    box-sizing: border-box;
+   margin: 4px;
+    border: 1px solid rgb(22, 190, 190);
+}
+
+.skill .text {
+    font-size: 18px;
+    margin: 0;
+}
+
+.skill p {
+    margin: 0;
+}
+
+
+.section5 {
+    padding: 3%;
+}
+
+.forms {
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid rgb(22, 190, 190);
+    box-shadow: 0px 4px 6px 3px rgb(22, 190, 190);
+    border-radius: 8px;
+}
+
+.forms p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.forms label {
+     display: block;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.forms input,
+.forms textarea {
+    display: block;
+
+    width: 90%;
+    padding: 12px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.forms input {
+    border-bottom: 3px solid rgb(22, 190, 190);
+}
+
+.forms textarea {
+    resize: vertical;
+    border-bottom: 3px solid rgb(22, 190, 190);
+}
+
+.forms button {
+    display: block;
+   margin-left: 38%;
+    color: white;
+    background-color: rgb(22, 190, 190);
+    border: none;
+    border-radius: 5px;
+   
+    font-size: 16px;
+}
+
+.forms button:hover {
+    background-color: rgb(15, 150, 150);
+}
+
+footer {
+    background-color: #000;
+    padding:  20px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
+
+
+footer hr {
+    
+    border-top: 1px solid #555;
+    max-width: 500px;
+}
+
+
